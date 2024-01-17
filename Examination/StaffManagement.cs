@@ -43,8 +43,8 @@ namespace Examination
         {
             InitializeComponent();
             con = new SqlConnection();
-            con.ConnectionString = @"Data Source=DESKTOP-68L5NME\SQLEXPRESS;Initial Catalog=Exam;Integrated Security=true";
-        }
+            con.ConnectionString = "Databse Connection";
+            }
 
         private void StaffManagement_Load(object sender, EventArgs e)
         {
