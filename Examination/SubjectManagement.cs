@@ -44,7 +44,7 @@ namespace Examination
         {
             InitializeComponent();
             con = new SqlConnection();
-            con.ConnectionString = @"Data Source=DESKTOP-68L5NME\SQLEXPRESS; Initial Catalog=Exam;Integrated Security=true";
+            con.ConnectionString ="Databse Connection";
         }
 
         private void lnklogout_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
